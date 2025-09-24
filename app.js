@@ -10,14 +10,14 @@ app.get('/', (req, res) => {
     <head><title>BitFlip Demo</title></head>
     <body style="font-family: monospace; text-align: center; padding: 50px;">
       <h1>BitFlip Demo</h1>
-      <h2>Losowe bity:</h2>
+      <h2>Random bits:</h2>
       <div style="font-size: 2em; margin: 20px;">${randomBits}</div>
-      <button onclick="location.reload()">Nowe bity</button>
+      <button onclick="location.reload()">Generate new bits</button>
     </body>
     </html>
   `);
 });
 
 app.listen(PORT, () => {
-  console.log(`BitFlip Demo działa na http://localhost:${PORT}`);
+  console.log(`BitFlip Demo running on http://localhost:${PORT}`);
 });
