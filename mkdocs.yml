@@ -1,0 +1,9 @@
+site_name: BitFlip Demo
+site_description: Documentation for BitFlip Demo Application
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Deployment: deployment.md
+
+plugins:
+  - techdocs-core
